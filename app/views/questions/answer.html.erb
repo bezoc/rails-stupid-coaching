@@ -1,0 +1,12 @@
+
+<div class="container mt-5">
+  <p class="fs-4">
+    <em><%= @question %></em> - <strong>You</strong>
+  </p>
+
+  <div class="alert alert-warning mt-3 p-4">
+    <p class="fs-4 mb-0"><%= @answer %> - <strong>Your coach</strong></p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-secondary mt-3" %>
+</div>
